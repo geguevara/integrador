@@ -445,7 +445,7 @@ html{
 }
 @media (max-height:512px) {
     .form-container{
-        top: auto;
+        top: 10px;
         font-size: .8em;
     }
     .form-container h3{
