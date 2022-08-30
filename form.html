@@ -19,16 +19,16 @@
        <form action="">
          <div class="form-sub-content">
            <label for="nombre">Nombre</label>
-           <input type="text" id="nombre" />
+           <input type="text" id="nombre" required/>
 
            <label for="apellido"> Apellido</label>
-           <input type="text" name="apellido" id="apellido" />
+           <input type="text" name="apellido" id="apellido" required/>
 
            <label for="email"> Correo electrónico</label>
-           <input type="email" name="correo" id="email" />
+           <input type="email" name="correo" id="email" required/>
 
            <label for="passw"> Contraseña</label>
-           <input type="password" name="password" id="passw" />
+           <input type="password" name="password" id="passw" required/>
 
            <label for="date">Fecha de nacimiento</label>
            <input type="date" name="" id="date" />
@@ -42,7 +42,9 @@
        </form>
       </div>
       <div class="form-content-bttn">
-        <button class="button"> <a href="./index.html"> Registrarme</a></button>
+         <a href="./index.html">
+
+         <button class="button"> Registrarme</button></a>
         <span class="span">¿Ya estás registrado? <a href="./signin.html"> Inicia sesión</a></span>
       </div>
     </div>
