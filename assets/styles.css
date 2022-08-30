@@ -451,4 +451,9 @@ html{
     .form-container h3{
         display: none;
     }
+    .form-ctn-scd{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
